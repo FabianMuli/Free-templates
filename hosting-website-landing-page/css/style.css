@@ -73,7 +73,7 @@ a:hover {
 }
 
 .blue-border {
-  width: 5%;
+  width: 10%;
   border-bottom: solid 2px #a0e9e7;
   margin: 0 auto;
 }
@@ -178,7 +178,7 @@ a:hover {
   background-color: #f7fbfc;
 }
 .subscribe form {
-  width: 60%;
+  min-width: 60%;
   margin: 0 auto;
 }
 
