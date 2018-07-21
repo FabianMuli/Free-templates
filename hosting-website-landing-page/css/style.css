@@ -167,4 +167,12 @@ a:hover {
   margin-right: 10px;
 }
 
+.subscribe {
+  background-color: #F7FBFC;
+}
+.subscribe form {
+  width: 60%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
