@@ -90,3 +90,26 @@ a:hover {
     color: $live-chat-color;
     background-color: $live-chat-bgcolor;
 }
+
+
+// good at section
+.blue-border {
+    width: 10%;
+    border-bottom: solid 2px #A0E9E7;
+    margin: 0 auto;
+
+}
+
+.boxes {
+    width: 200%;
+    max-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    .box-item {
+        background-color: #33D1CC;
+    }
+    .item2 {
+        background-color: #FFE13E;
+    }
+}
