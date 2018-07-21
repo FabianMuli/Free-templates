@@ -70,7 +70,7 @@ a:hover {
 }
 
 .blue-border {
-  width: 10%;
+  width: 5%;
   border-bottom: solid 2px #A0E9E7;
   margin: 0 auto;
 }
@@ -98,6 +98,28 @@ a:hover {
   color: black;
   font-size: 4em;
   font-weight: 700;
+}
+
+.features {
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #EFF7FA;
+}
+.features .one, .features .two, .features .three {
+  overflow-x: hidden;
+}
+.features .back-number {
+  color: white;
+  position: absolute;
+  font-size: 6em;
+  font-weight: 800;
+}
+.features .fa-headphones, .features .fa-cloud, .features .fa-database {
+  position: absolute;
+  font-size: 2em;
+  color: #33D1CC;
+  z-index: 11;
 }
 
 /*# sourceMappingURL=style.css.map */
