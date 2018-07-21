@@ -2,7 +2,8 @@
   transition: 0.3s;
 }
 
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -14,19 +15,20 @@ body {
 }
 
 a {
-  color: #808F99;
+  color: #808f99;
 }
 
 a:hover {
-  color: #03B3AF;
+  color: #03b3af;
 }
 
 .active-link {
-  color: #03B3AF;
+  color: #03b3af;
 }
 
-.fa-search, .stroke {
-  color: #03B3AF;
+.fa-search,
+.stroke {
+  color: #03b3af;
 }
 
 .live-chat {
@@ -43,17 +45,18 @@ a:hover {
 
 .nav-item .live-chat {
   color: lightgray;
-  background-color: #FF3150;
+  background-color: #ff3150;
 }
 
 .half-vp {
   width: 100%;
-  height: 60vh;
-  background-color: #19283F;
+  min-height: 70vh;
+  background-color: #19283f;
 }
 
-.half-vp h1, .half-vp span {
-  color: #C2C5CA;
+.half-vp h1,
+.half-vp span {
+  color: #c2c5ca;
   font-weight: 300;
 }
 .half-vp span {
@@ -66,18 +69,18 @@ a:hover {
   padding-bottom: 3px;
   margin-top: 6px;
   color: lightgray;
-  background-color: #FF3150;
+  background-color: #ff3150;
 }
 
 .blue-border {
   width: 5%;
-  border-bottom: solid 2px #A0E9E7;
+  border-bottom: solid 2px #a0e9e7;
   margin: 0 auto;
 }
 
 .boxes {
-  width: 200%;
-  max-height: 400px;
+  max-width: 200%;
+  min-height: 400px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -85,13 +88,13 @@ a:hover {
 }
 .boxes .box-item {
   max-width: 400px;
-  background-color: #33D1CC;
+  background-color: #33d1cc;
 }
 .boxes .box-item:hover {
   transform: translateY(-10px);
 }
 .boxes .item2 {
-  background-color: #FFE13E;
+  background-color: #ffe13e;
 }
 .boxes .fa-server {
   color: white;
@@ -107,9 +110,11 @@ a:hover {
   overflow-x: hidden;
   width: 100%;
   min-height: 80vh;
-  background-color: #EFF7FA;
+  background-color: #eff7fa;
 }
-.features .one, .features .two, .features .three {
+.features .one,
+.features .two,
+.features .three {
   overflow-x: hidden;
 }
 .features .back-number {
@@ -118,10 +123,12 @@ a:hover {
   font-size: 6em;
   font-weight: 800;
 }
-.features .fa-headphones, .features .fa-cloud, .features .fa-database {
+.features .fa-headphones,
+.features .fa-cloud,
+.features .fa-database {
   position: absolute;
   font-size: 2em;
-  color: #33D1CC;
+  color: #33d1cc;
   z-index: 11;
 }
 .testimonials {
@@ -129,7 +136,7 @@ a:hover {
   min-height: 60vh;
 }
 .testimonials .card {
-  background-color: #F7FBFC;
+  background-color: #f7fbfc;
   box-shadow: 2px 2px 10px 2px lightgray;
 }
 .testimonials .card:hover {
@@ -150,7 +157,7 @@ a:hover {
   content: close-quote;
 }
 .testimonials .name {
-  color: #33D1CC;
+  color: #33d1cc;
 }
 .testimonials .image {
   border: solid 2px lightgray;
@@ -168,11 +175,54 @@ a:hover {
 }
 
 .subscribe {
-  background-color: #F7FBFC;
+  background-color: #f7fbfc;
 }
 .subscribe form {
   width: 60%;
   margin: 0 auto;
+}
+
+footer {
+  background-color: #19283f;
+  width: 100%;
+  min-height: 50vh;
+  color: lightgray;
+}
+footer ion-icon {
+  font-size: 1.7em;
+  padding-left: 10px;
+}
+footer ion-icon[name="logo-facebook"] {
+  color: #347cd2;
+}
+footer ion-icon[name="logo-instagram"] {
+  color: #ff58ac;
+}
+footer ion-icon[name="logo-twitter"] {
+  color: #1ec4ff;
+}
+footer ion-icon[name="logo-googleplus"] {
+  color: #ff4032;
+}
+footer span,
+footer .name {
+  color: #33d1cc;
+}
+
+@media screen and (max-width: 920px) {
+  .stroke,
+  .live-chat {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .boxes {
+    flex-direction: column;
+  }
+  .navbar-nav {
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
