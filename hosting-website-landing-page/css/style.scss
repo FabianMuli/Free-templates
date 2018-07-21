@@ -1,0 +1,89 @@
+// variables
+$padding-zero: 0;
+$margin-zero: 0;
+$search-icon-color: #03B3AF;
+$live-chat-bgcolor: #FF3150;
+$live-chat-color: lightgray;
+
+// main style
+
+* {
+    transition: 0.3s;
+}
+
+body,html {
+    padding: $padding-zero;
+    margin: $margin-zero;
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 51px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+// navigation section
+
+a {
+    color: #808F99;
+}
+
+a:hover {
+    color: $search-icon-color;
+}
+
+
+.active-link {
+    color: $search-icon-color;
+}
+
+
+.fa-search, .stroke {
+    color: #03B3AF;
+}
+
+.live-chat {
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 6px;
+}
+
+.fa-search:hover,
+.stroke:hover {
+  color: #03b3af;
+}
+
+.nav-item {
+    .live-chat {
+        color: $live-chat-color;
+        background-color: $live-chat-bgcolor;
+    }
+}
+
+// main section //
+// upper-section below the navigation bar //
+
+.half-vp {
+    width: 100%;
+    height: 60vh;
+    background-color: #19283F;
+}
+
+.half-vp {
+    h1,span {
+        color: #C2C5CA;
+        font-weight: 300;
+    }
+
+}
+
+.get-started {
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 6px;
+    color: $live-chat-color;
+    background-color: $live-chat-bgcolor;
+}
