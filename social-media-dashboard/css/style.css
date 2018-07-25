@@ -12,6 +12,7 @@ body {
 
 nav {
   background: white;
+  /* Rounded sliders */
 }
 nav .logo {
   color: #B586FF;
@@ -28,6 +29,54 @@ nav .navbar-brand a:hover {
 }
 nav ion-icon {
   font-size: 1.4em;
+}
+nav .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+}
+nav .switch input {
+  display: none;
+}
+nav .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+nav .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+nav input:checked + .slider {
+  background-color: #2196F3;
+}
+nav input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+nav input:checked + .slider:before {
+  -webkit-transform: translateX(33px);
+  -ms-transform: translateX(33px);
+  transform: translateX(33px);
+}
+nav .slider.round {
+  border-radius: 34px;
+}
+nav .slider.round:before {
+  border-radius: 50%;
 }
 
 section.media-icons .icons {
@@ -89,6 +138,11 @@ section.media-icons .red-text {
   background-color: #F1F5F8;
   border-radius: 17px;
   border-color: #F1F5F8;
+  transition: 0.2s;
+}
+.overview .card:hover {
+  box-shadow: 3px 3px 20px 1px lightgrey;
+  transform: translateY(-10px);
 }
 .overview .twitter {
   color: #00B3FF;
@@ -104,6 +158,104 @@ section.media-icons .red-text {
 }
 .overview .instagram {
   color: #9248FF;
+}
+
+.span-dark {
+  color: white;
+}
+
+.dark {
+  transition: 1s;
+  background-color: #161A25;
+}
+.dark body .text-secondary {
+  opacity: 0.89;
+}
+.dark nav * {
+  color: white;
+}
+.dark nav .logo {
+  color: #B586FF;
+}
+.dark .overview button {
+  background-color: transparent;
+  color: white;
+}
+.dark .overview .sort {
+  background-color: #30303F;
+}
+.dark .overview .card {
+  border-color: #30303D;
+}
+.dark .overview .card * {
+  color: white;
+}
+.dark .overview .text-secondary {
+  opacity: 0.9;
+  color: white;
+}
+.dark .overview .card:hover {
+  box-shadow: 0 0 0 0 black;
+}
+.dark .overview .twitter {
+  color: white;
+}
+.dark .overview .dribble {
+  color: white;
+}
+.dark .overview .facebook {
+  color: white;
+}
+.dark .overview .pinterest {
+  color: white;
+}
+.dark .overview .instagram {
+  color: white;
+}
+.dark .overview h4, .dark .overview .fa-list {
+  color: white;
+}
+.dark .overview .facebook-card {
+  background-color: #0072EE;
+}
+.dark .overview .twitter-card {
+  background-color: #00B3FF;
+}
+.dark .overview .dribble-card {
+  background-color: #FF3A80;
+}
+.dark .overview .instagram-card {
+  background-color: #9248FF;
+}
+.dark .overview .pinterest-card {
+  background-color: #FF414B;
+}
+.dark section.media-icons .facebook {
+  box-shadow: 0 0 0 0 black;
+}
+.dark section.media-icons .twitter {
+  box-shadow: 0 0 0 0 black;
+}
+.dark section.media-icons .pinterest {
+  box-shadow: 0 0 0 0 black;
+}
+.dark section.media-icons .dribble {
+  box-shadow: 0 0 0 0 black;
+}
+.dark section.media-icons .instagram {
+  box-shadow: 0 0 0 0 black;
+}
+.dark section.media-icons .content {
+  color: white;
+}
+.dark section.media-icons .red-text {
+  color: #FF1B2F;
+}
+.dark .navbar-brand a {
+  color: white;
+}
+.dark .navbar-nav li {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

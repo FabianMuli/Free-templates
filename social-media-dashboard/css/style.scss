@@ -31,6 +31,62 @@ nav {
     ion-icon {
         font-size: 1.4em;
     }
+
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(33px);
+  -ms-transform: translateX(33px);
+  transform: translateX(33px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 }
 
 section.media-icons {
@@ -105,6 +161,11 @@ section.media-icons {
         background-color: #F1F5F8;
         border-radius: 17px;
         border-color: #F1F5F8;
+        transition: 0.2s;
+    }
+    .card:hover {
+        box-shadow: 3px 3px 20px 1px lightgrey;
+        transform: translateY(-10px)
     }
 
     .twitter {
@@ -124,4 +185,139 @@ section.media-icons {
     .instagram {
         color: #9248FF;
     }
+
+
+}
+
+.span-dark {
+    color: white;
+}
+
+
+// dark mode
+.dark {
+    transition: 1s;
+    background-color: #161A25;
+    body {
+        .text-secondary {
+            opacity: 0.89;
+        }
+    }
+    nav {
+        * {
+            color: white;
+        }
+        .logo {
+            color: #B586FF;
+        }
+    }
+
+    .overview {
+        button {
+            background-color: transparent;
+            color: white;
+        }
+
+        .sort {
+            background-color: #30303F;
+        }
+
+        .card {
+            border-color: #30303D;
+        }
+        .card {
+            * {
+                color:white;
+            }
+
+        }
+        .text-secondary {
+            opacity: 0.9;
+            color: white;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 0 0 black;
+        }
+
+        .twitter {
+            color: white;
+        }
+
+        .dribble {
+            color: white;
+        }
+        .facebook {
+            color: white;
+        }
+        .pinterest {
+            color: white;
+        }
+
+        .instagram {
+            color: white;
+        }
+        h4, .fa-list{
+            color: white;
+        }
+        .facebook-card {
+            background-color: #0072EE;
+        }
+        .twitter-card {
+            background-color: #00B3FF;
+        }
+        .dribble-card {
+            background-color: #FF3A80;
+        }
+        .instagram-card {
+            background-color: #9248FF;
+        }
+        .pinterest-card{
+            background-color: #FF414B;
+        }
+    }
+
+    section.media-icons {
+        .facebook {
+            box-shadow: 0 0 0 0 black;
+
+        }
+        .twitter {
+            box-shadow: 0 0 0 0 black;
+        }
+        .pinterest {
+            box-shadow: 0 0 0 0 black;
+        }
+        .dribble {
+
+            box-shadow: 0 0 0 0 black;
+        }
+        .instagram {
+
+            box-shadow: 0 0 0 0 black;
+        }
+
+        .content {
+            color: white;
+        }
+
+
+        .red-text{
+            color: #FF1B2F;
+        }
+
+    }
+
+    .navbar-brand {
+        a{
+            color: white;
+        }
+
+    }
+    .navbar-nav{
+        li {
+            color: white;
+        }
+    }
+
 }
