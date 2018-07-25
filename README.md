@@ -3,4 +3,6 @@ free templates build from the ground-up using free designs from [uplabs](http://
 
 by [fabdesignskenya](http://www.fabdesignskenya.co.ke)
 
-1. [Hosting website landing page](http://www.fabdesignskenya.co.ke/free-templates.html)
+1. [Hosting website landing page](http://www.fabdesignskenya.co.ke/templates/templates/hosting-company/index.html)
+
+2. [social media dashboard](http://www.fabdesignskenya.co.ke/templates/templates/social-media-dashboard/index.html)
