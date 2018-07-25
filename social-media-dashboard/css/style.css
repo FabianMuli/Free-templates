@@ -3,6 +3,107 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  letter-spacing: -0.8px;
+}
+
+nav {
+  background: white;
+}
+nav .logo {
+  color: #B586FF;
+  padding-top: 10px;
+}
+nav .navbar-brand a {
+  color: black;
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+nav .navbar-brand a:hover {
+  text-decoration: none;
+}
+nav ion-icon {
+  font-size: 1.4em;
+}
+
+section.media-icons .icons {
+  min-height: 170px;
+  min-width: 170px;
+  color: white;
+  border-radius: 25px;
+  font-size: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+section.media-icons .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+section.media-icons .facebook {
+  background-color: #0072EE;
+  box-shadow: 2px 2px 25px 4px #ADD8FF;
+}
+section.media-icons .twitter {
+  background-color: #00B3FF;
+  box-shadow: 2px 2px 25px 4px #A4DDF9;
+}
+section.media-icons .pinterest {
+  background: #FF414B;
+  box-shadow: 2px 2px 25px 4px #FFC6CB;
+}
+section.media-icons .dribble {
+  background: #FF3A80;
+  box-shadow: 2px 2px 25px 4px #FFD0EB;
+}
+section.media-icons .instagram {
+  background: #9248FF;
+  box-shadow: 2px 2px 25px 4px #DECEFD;
+}
+section.media-icons .red-text {
+  color: #FF1B2F;
+}
+
+.text-secondary {
+  opacity: 0.5;
+}
+
+.blue-text {
+  color: #71DBBC;
+}
+
+.overview button {
+  background-color: #F1F5F8;
+  color: grey;
+  border-radius: 25px;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.overview .card {
+  background-color: #F1F5F8;
+  border-radius: 17px;
+  border-color: #F1F5F8;
+}
+.overview .twitter {
+  color: #00B3FF;
+}
+.overview .dribble {
+  color: #FF3A80;
+}
+.overview .facebook {
+  color: #0072EE;
+}
+.overview .pinterest {
+  color: #FF414B;
+}
+.overview .instagram {
+  color: #9248FF;
 }
 
 /*# sourceMappingURL=style.css.map */
