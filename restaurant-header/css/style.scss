@@ -1,0 +1,79 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+width: 1200px;
+height: 100%;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.6;
+    filter: blur(1px);
+}
+
+
+
+
+// navigation section
+nav {
+    width: 70%;
+    margin-left: auto;
+    position: fixed;
+    z-index: 0;
+
+
+    li {
+
+        a {
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: white;
+}
+
+.main{
+    background: white;
+    .content-2 {
+        width: 70%;
+        margin-left: 35%;
+    }
+
+    .header {
+
+        h2 {
+            line-height: 45px;
+            color: #00A652;
+        }
+
+    }
+    .description {
+        p{
+            line-height: 30px;
+        }
+    }
+
+    .getting-there {
+        font-weight: bolder;
+
+        .dash {
+            color: #00A652;
+        }
+        .text {
+            font-weight: 700;
+            font-size: 0.7em;
+        }
+    }
+
+}
