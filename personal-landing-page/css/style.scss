@@ -5,6 +5,10 @@ body {
 }
 
 nav {
+    position: absolute;
+    z-index: 1234567;
+    margin-top: 50px;
+
     a {
         font-size: 0.8em;
     }
@@ -18,8 +22,24 @@ nav {
 }
 
 main {
+    .dot {
+        position: relative;
+        margin-top: 15px;
+        background: #F23249;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+
     .nav {
+        position: relative;
+        margin-left: 20%;
+        margin-top: 10%;
         li {
+            letter-spacing: 4px;
+            display: flex;
+            flex-direction: row;
             a {
                 color: white;
                 font-size: 0.7em;
@@ -28,7 +48,78 @@ main {
             a:hover {
                 color: #EC2B44;
             }
+
+            .contact {
+                font-size: 0.8em;
+                filter: blur(1px);
+                position: relative;
+
+            }
+
+            .dot-1 {
+                width: 4px;
+                height: 4px;
+                @extend .contact;
+            }
+
+            .social {
+                @extend .contact;
+                font-size: 1.05em;
+            }
+            .dot-2 {
+                width: 6px;
+                height: 6px;
+                @extend .contact;
+            }
+            .about {
+                font-size: 1.7em;
+            }
+            .about-me {
+
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                z-index: 12455432332;
+                margin-left: -30px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .dot-3 {
+                width: 12px;
+                height: 12px;
+                margin-top: 25px;
+            }
+            .projects {
+                @extend .social;
+            }
+            .dot-4 {
+                @extend .dot-2;
+            }
+            .hire {
+                @extend .contact;
+            }
+            .dot-5 {
+                @extend .dot-1;
+            }
+            .projects:hover, .hire:hover, .contact:hover, .social:hover {
+                filter: blur(0px);
+            }
         }
+    }
+
+    .line-across {
+        position: absolute;
+        width: 13%;
+        margin-top: 270px;
+        z-index: -1;
+        border-top: 0.5px solid rgb(145, 145, 145);
+        filter: blur(0.4px);
+    }
+
+    .line-across-2 {
+        @extend .line-across;
+        right: 0;
+        width: 63%;
     }
 
     .gaming {
@@ -82,26 +173,45 @@ main {
 
     }
 
+    .top {
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    .arrow {
+        width: 40px;
+        height:40px;
+        border-radius: 50%;
+        background-color: white;
+        font-size: 1.6em;
+        color: #F23249;
+        position: absolute;
+        right: 0;
+        margin-top: 252px;
+        margin-right: 200px;
+    }
+
     .footer {
-        font-family: 'Open Sans', sans-serif;
-
         .nav {
-            position: absolute;
-            margin-left: 300px;
-            width: 350px;
-        }
-
-        .discover {
-            font-weight: 600;
-            font-size: 0.7em;
-        }
-
-        .border-top {
-            width: 10%;
-            margin-left: 70px;
+            display: flex;
+            justify-content: right;
         }
     }
 
+
+
+}
+
+
+
+p.discover {
+    font-size: 0.7em;
+
+}
+
+.border-top {
+    width: 10%;
+    margin-left: 70px;
 }
 
 

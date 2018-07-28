@@ -4,6 +4,11 @@ body {
   background-size: cover;
 }
 
+nav {
+  position: absolute;
+  z-index: 1234567;
+  margin-top: 50px;
+}
 nav a {
   font-size: 0.8em;
 }
@@ -14,6 +19,24 @@ nav i {
   font-size: 1.4em;
 }
 
+main .dot {
+  position: relative;
+  margin-top: 15px;
+  background: #F23249;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+main .nav {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+main .nav li {
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: row;
+}
 main .nav li a {
   color: white;
   font-size: 0.7em;
@@ -21,6 +44,54 @@ main .nav li a {
 }
 main .nav li a:hover {
   color: #EC2B44;
+}
+main .nav li .contact, main .nav li .hire, main .nav li .dot-2, main .nav li .dot-4, main .nav li .social, main .nav li .projects, main .nav li .dot-1, main .nav li .dot-5 {
+  font-size: 0.8em;
+  filter: blur(1px);
+  position: relative;
+}
+main .nav li .dot-1, main .nav li .dot-5 {
+  width: 4px;
+  height: 4px;
+}
+main .nav li .social, main .nav li .projects {
+  font-size: 1.05em;
+}
+main .nav li .dot-2, main .nav li .dot-4 {
+  width: 6px;
+  height: 6px;
+}
+main .nav li .about {
+  font-size: 1.7em;
+}
+main .nav li .about-me {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 12455432332;
+  margin-left: -30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+main .nav li .dot-3 {
+  width: 12px;
+  height: 12px;
+  margin-top: 25px;
+}
+main .nav li .projects:hover, main .nav li .hire:hover, main .nav li .contact:hover, main .nav li .dot-1:hover, main .nav li .dot-2:hover, main .nav li .dot-4:hover, main .nav li .dot-5:hover, main .nav li .social:hover {
+  filter: blur(0px);
+}
+main .line-across, main .line-across-2 {
+  position: absolute;
+  width: 13%;
+  margin-top: 270px;
+  z-index: -1;
+  border-top: 0.5px solid #919191;
+  filter: blur(0.4px);
+}
+main .line-across-2 {
+  right: 0;
+  width: 63%;
 }
 main .gaming {
   font-family: "Anton", sans-serif;
@@ -60,13 +131,30 @@ main .line .real-line, main .line .colored-line {
 main .line .colored-line {
   border-color: #F23249;
 }
+main .top {
+  position: absolute;
+  margin-top: -40px;
+}
+main .arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 1.6em;
+  color: #F23249;
+  position: absolute;
+  right: 0;
+  margin-top: 252px;
+  margin-right: 200px;
+}
 main .footer {
   font-family: "Open Sans", sans-serif;
 }
 main .footer .nav {
-  position: absolute;
-  margin-left: 300px;
-  width: 350px;
+  position: relative;
+  z-index: 2345;
+  margin-top: 0;
+  margin-right: 0;
 }
 main .footer .discover {
   font-weight: 600;
