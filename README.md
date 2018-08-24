@@ -8,3 +8,5 @@ by [fabdesignskenya](http://www.fabdesignskenya.co.ke)
 2. [social media dashboard](http://www.fabdesignskenya.co.ke/templates/templates/social-media-dashboard/index.html)
 
 3. [Gamer Landing Page](http://www.fabdesignskenya.co.ke/templates/templates/)
+
+- [todo] add all the templates
