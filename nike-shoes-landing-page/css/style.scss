@@ -12,6 +12,33 @@ nav {
     display: flex;
     flex-direction: row;
 
+    .menu {
+        position: absolute;
+        z-index: 123;
+        margin-top: 40px;
+        margin-left: 150px;
+        width: 70px;
+        height: 40px;
+
+        .one, .two, .three {
+            background: black;
+            height: 2px;
+            margin-top: 5px;
+        }
+
+        .one {
+            width: 50%;
+        }
+
+        .two {
+            width: 40%;
+        }
+
+        .three {
+            width: 26%;
+        }
+    }
+
     .logo {
         position: relative;
         z-index: 12;
@@ -77,26 +104,4 @@ nav {
         }
     }
 
-    .scroll-indicators {
-        position: relative;
-        background-color: lightgray;
-        width: 60px;
-        height: 40px;
-        display: flex;
-        flex-direction: row;
-        font-size: 2em;
-        margin-left: 1140px;
-        margin-top: -40px;
-    }
-
-    .right {
-        margin: 0 auto;
-        width: 100%;
-        background-color: #ff0000;
-    }
-
-    .left {
-        margin: 0 auto;
-        width: 100%;
-    }
 }

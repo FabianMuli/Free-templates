@@ -8,6 +8,23 @@ body, html {
 nav {
   display: flex;
   flex-direction: row; }
+  nav .menu {
+    position: absolute;
+    z-index: 123;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 70px;
+    height: 40px; }
+    nav .menu .one, nav .menu .two, nav .menu .three {
+      background: black;
+      height: 2px;
+      margin-top: 5px; }
+    nav .menu .one {
+      width: 50%; }
+    nav .menu .two {
+      width: 40%; }
+    nav .menu .three {
+      width: 26%; }
   nav .logo {
     position: relative;
     z-index: 12;
@@ -54,22 +71,5 @@ nav {
       background: #ff0000;
       border-radius: 25px;
       color: white; }
-  .header .scroll-indicators {
-    position: relative;
-    background-color: lightgray;
-    width: 60px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    font-size: 2em;
-    margin-left: 1140px;
-    margin-top: -40px; }
-  .header .right {
-    margin: 0 auto;
-    width: 100%;
-    background-color: #ff0000; }
-  .header .left {
-    margin: 0 auto;
-    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
