@@ -6,3 +6,5 @@ by [fabdesignskenya](http://www.fabdesignskenya.co.ke)
 1. [Hosting website landing page](http://www.fabdesignskenya.co.ke/templates/templates/hosting-company/index.html)
 
 2. [social media dashboard](http://www.fabdesignskenya.co.ke/templates/templates/social-media-dashboard/index.html)
+
+3. [Gamer Landing Page](http://www.fabdesignskenya.co.ke/templates/templates/)
