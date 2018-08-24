@@ -18,7 +18,8 @@ nav {
     background-position: center;
     margin: 0 auto; }
   nav .search {
-    position: relative; }
+    position: relative;
+    margin-top: 20px; }
     nav .search .icon {
       font-size: 2em; }
 
