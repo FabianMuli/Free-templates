@@ -81,6 +81,7 @@ nav input:focus + .slider {
 
 nav input:checked + .slider:before {
   -webkit-transform: translateX(33px);
+  -ms-transform: translateX(33px);
   transform: translateX(33px);
 }
 
@@ -180,6 +181,7 @@ section.media-icons .red-text {
   -webkit-box-shadow: 3px 3px 20px 1px lightgrey;
           box-shadow: 3px 3px 20px 1px lightgrey;
   -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
           transform: translateY(-10px);
 }
 
