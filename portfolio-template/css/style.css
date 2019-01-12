@@ -1,7 +1,9 @@
-body{
+body,
+html{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  background: -webkit-linear-gradient(to left, #121013, #292420);
   background: -webkit-gradient(linear, right top, left top, from(#121013), to(#292420));
   background: -moz-linear-gradient(to left, #121013, #292420);
   background: -o-linear-gradient(to left, #121013, #292420);
@@ -22,6 +24,7 @@ body{
 nav{
   color: lightgray;
   background: -webkit-gradient(linear, right top, left top, from(#121013), to(#242424));
+  background: -webkit-linear-gradient(to left, #121013, #242424);
   background: -moz-linear-gradient(to left, #121013, #242424);
   background: -mos-linear-gradent(to left, #121013, #242424);
   background: -o-linear-gradient(to left, #121013, #242424);
