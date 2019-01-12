@@ -119,6 +119,7 @@ main .footer .border-top {
 
 .wrapper-menu.open {
   -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 
@@ -139,6 +140,7 @@ main .footer .border-top {
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57), -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   -webkit-transform-origin: right;
+  -ms-transform-origin: right;
           transform-origin: right;
   width: 70%;
 }
