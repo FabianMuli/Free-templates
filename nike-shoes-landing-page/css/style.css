@@ -11,7 +11,11 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
