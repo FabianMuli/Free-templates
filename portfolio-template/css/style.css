@@ -24,6 +24,10 @@ nav {
   color: lightgray;
   background: -webkit-gradient(linear, right top, left top, from(#121013), to(#242424));
   background: linear-gradient(to left, #121013, #242424);
+  background: -moz-linear-gradient(to left, #121013, #242424);
+  background: -webkit-gradient(to left, #121013, #242424);
+  background: -mos-linear-gradent(to left, #121013, #242424);
+  background: -o-linear-gradient(to left, #121013, #242424);
   font-family: 'Montserrat', sans-serif;
 }
 
