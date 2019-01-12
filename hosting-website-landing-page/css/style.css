@@ -244,7 +244,11 @@ footer span, footer .name {
 @media screen and (max-width: 720px) {
   .boxes {
     -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -moz-box-orient: vertical;
     -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -ms-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
