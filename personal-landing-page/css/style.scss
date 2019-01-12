@@ -102,7 +102,7 @@ main {
                 @extend .dot-1;
             }
             .projects:hover, .hire:hover, .contact:hover, .social:hover {
-                filter: blur(0px);
+                filter: blur(0);
             }
         }
     }
