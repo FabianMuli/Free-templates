@@ -92,6 +92,8 @@ a:hover {
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
