@@ -244,6 +244,7 @@ main .footer .nav {
 
 .wrapper-menu.open {
   -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 
@@ -264,12 +265,14 @@ main .footer .nav {
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57), -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   -webkit-transform-origin: right;
+  -ms-transform-origin: right;
           transform-origin: right;
   width: 70%;
 }
 
 .open .line-menu.start {
   -webkit-transform: rotate(-90deg) translateX(3px);
+  -ms-transform: rotate(-90deg) translateX(3px);
           transform: rotate(-90deg) translateX(3px);
 }
 
@@ -281,11 +284,13 @@ main .footer .nav {
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57), -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   -webkit-transform-origin: left;
-          transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
 }
 
 .open .line-menu.end {
   -webkit-transform: rotate(-90deg) translateX(-3px);
+  -ms-transform: rotate(-90deg) translateX(-3px);
           transform: rotate(-90deg) translateX(-3px);
 }
 /*# sourceMappingURL=style.css.map */
