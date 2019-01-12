@@ -92,8 +92,12 @@ main .nav li .about-me {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
+  -ms-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
   z-index: 12455432332;
@@ -201,7 +205,7 @@ main .footer .nav {
           justify-content: right;
 }
 
-p.discover {
+.discover {
   font-size: 0.7em;
 }
 
@@ -217,10 +221,15 @@ p.discover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -moz-box-orient:vertical;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: justify;
+  -ms-box-pack:justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   cursor: pointer;
