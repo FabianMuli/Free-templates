@@ -232,6 +232,7 @@ main .footer .nav {
           flex-direction: column;
   -webkit-box-pack: justify;
   -ms-box-pack:justify;
+  -moz-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   cursor: pointer;
