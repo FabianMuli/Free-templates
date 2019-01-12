@@ -201,6 +201,8 @@ main .footer .nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: right;
+  -moz-box-pack: right;
+  -ms-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
 }
