@@ -49,6 +49,7 @@ nav .navbar-nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
   -webkit-box-direction: normal;
   -moz-box-direction: normal;
       -ms-flex-direction: row;
@@ -122,7 +123,7 @@ section.top .left-2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-section.top .left-2 span.number {
+section.top .left-2 .number {
   color: #6A2B2A;
   font-size: 3em;
   font-weight: bolder;
