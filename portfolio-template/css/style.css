@@ -50,6 +50,7 @@ nav .navbar-nav {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -moz-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
