@@ -99,7 +99,7 @@ main .footer .border-top {
   display: flex;
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
-  -ms-ox-orient: vertical;
+  -ms-box-orient: vertical;
   -webkit-box-direction: normal;
   -moz-box-direction: normal;
   -ms-box-direction: normal;
