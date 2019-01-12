@@ -4,8 +4,6 @@ html {
   margin: 0;
   overflow-x: hidden;
   background: -webkit-gradient(linear, right top, left top, from(#121013), to(#292420));
-  background: -webkit-gradient(to left, #121013, #292420);
-  background: linear-gradient(to left, #121013, #292420);
   background: -moz-linear-gradient(to left, #121013, #292420);
   background: -o-linear-gradient(to left, #121013, #292420);
   background: -ms-linear-gradient(to left, #121013, #292420);
